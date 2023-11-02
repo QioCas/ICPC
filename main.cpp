@@ -4,6 +4,6 @@ using ll = long long;
 #define all(x) (x).begin(), (x).end()
 #include "All.h"
 
-int main() {
 
+int main() {
 }
