@@ -1,5 +1,6 @@
+const int N = 200200;
+
 int n;
-// const int N = 200200;
 vector<int> G[N];
 array<int, 3> E[N];
 int low[N], ord[N], id[N], timer = 0, scc = 0;

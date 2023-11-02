@@ -34,6 +34,8 @@ struct AhoCorasick {
                     v = u == 1 ? 1 : to[fail[u]][i];
                 } else {
                     fail[v] = u == 1 ? 1 : to[fail[u]][i];
+                    // G[fail[v]].push_back(v);
+
                     ending[v] |= ending[fail[v]];
                     Q.push(v);
                 }

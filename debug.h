@@ -1,4 +1,3 @@
-std::string freopen();
 
 void DEBUG() {
     std::cerr << "Unsuccesfull Console Valuable;";
